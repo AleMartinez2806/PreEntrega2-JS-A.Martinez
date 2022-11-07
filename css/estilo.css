@@ -1,0 +1,133 @@
+.container-fluid {
+  color: #04202C; }
+
+h1, h2, p {
+  color: #000000f8; }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000f8; }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000f8; }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  font-size: 20px;
+  color: white; }
+
+.navbar-collapse {
+  flex-grow: 0; }
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.navbar-light .navbar-toggler {
+  border-color: white; }
+
+.btn:hover {
+  text-transform: uppercase;
+  text-decoration: underline;
+  transition: all 0.4s ease-in-out;
+  font-size: 22px;
+  color: black;
+  background: skyblue; }
+
+.card-img-top {  
+  max-height: 400px; }
+
+
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #04202C; }
+
+.contenido {
+  line-height: 1.6;
+  padding: 0 1.5em; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+.titulo {
+  text-align: center;
+  font-size: 3em; }
+
+.contacto {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+
+.contacto-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.contacto-form form label {
+  display: block; }
+
+.contacto-form form p {
+  margin: 0;
+  padding: 1em; }
+
+.contacto-form form .block {
+  grid-column: 1 / 3; }
+
+.contacto-form form button,
+.contacto-form form input,
+.contacto-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #14022f;
+  border-bottom: 1px solid #14022f; }
+
+.contacto-form form button {
+  background: #B3A381;
+  color: black;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.contacto-form form button:hover,
+.contacto-form form button:focus {
+  background: #d63031;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0; }
+
+/* CONTACT INFO */
+.contacto-info h4, .contacto-info ul, .contacto-info p {
+  text-align: center;
+  margin: 0 0 1rem 0; }
+
+.contacto-info li {
+  color: #14022f; }
+
+/* MEDIA */
+@media (min-width: 700px) {
+  .contacto {
+    display: grid;
+    grid-template-columns: 3fr 1fr; }
+  .contacto-info h4,
+  .contacto-info ul,
+  .contacto-info p {
+    text-align: center; } }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #96cce3; }
